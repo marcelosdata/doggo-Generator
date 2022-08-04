@@ -1,0 +1,80 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     border: 2px solid red;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 1.3rem;
+     background: linear-gradient(rgb(155, 201, 155),rgb(201, 31, 31));
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     margin-bottom: 30px;
+     text-align: center;
+     border: 2px solid blue;
+}
+
+select {
+     font-size: 1.1rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#dog-name {
+     font-size: 2rem;
+     text-decoration: none;
+}
+
+.img-doggo {
+     max-width: 900px;
+     max-width: 700px;
+}
+
+.section-container {
+     display: flex;
+     flex-direction: row;
+     border: 2px solid green;
+     padding-left: 10vw ;
+     padding-right: 10vw ;
+     /*Vw vH takes that as percentage of viewport*/
+}
+
+.column{
+     flex: 1;
+     border: solid 2px blue;
+}
+
+span{
+     text-decoration: underline;
+     font-weight: bold;
+}
+
+#left-column {
+     text-align: center;
+}
