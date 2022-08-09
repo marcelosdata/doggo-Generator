@@ -26,6 +26,7 @@ body {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 1.3rem;
      background: linear-gradient(rgb(155, 201, 155),rgb(201, 31, 31));
+     height: 100vh;
 }
 
 
@@ -77,4 +78,8 @@ span{
 
 #left-column {
      text-align: center;
+}
+
+li{
+     list-style: none;
 }
