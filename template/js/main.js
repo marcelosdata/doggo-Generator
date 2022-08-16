@@ -18,3 +18,22 @@ fetch(BREED_DOGS)
     }
     
   })
+
+  select.addEventListener('change', event =>{
+    let url = `https://dog.ceo/api/breed/${event.target.value}/images/random`
+    //console.log(event.target.value)
+    //console.log(url)
+    getDoggoImg(url)
+
+  })
+
+  const img = document.querySelector('.img-doggo')
+
+  const getDoggoImg = url => {
+    
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+    img.src = data.message
+      }
+  )}
