@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-     border: 2px solid red;
+     /* border: 2px solid red; */
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 1.3rem;
      background: linear-gradient(rgb(155, 201, 155),rgb(201, 31, 31));
@@ -36,7 +36,7 @@ body {
 header {
      margin-bottom: 30px;
      text-align: center;
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
 }
 
 select {
@@ -60,7 +60,7 @@ select {
 .section-container {
      display: flex;
      flex-direction: row;
-     border: 2px solid green;
+     /* border: 2px solid green; */
      padding-left: 10vw ;
      padding-right: 10vw ;
      /*Vw vH takes that as percentage of viewport*/
@@ -68,7 +68,7 @@ select {
 
 .column{
      flex: 1;
-     border: solid 2px blue;
+     /* border: solid 2px blue; */
 }
 
 span{
